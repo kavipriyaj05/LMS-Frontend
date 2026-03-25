@@ -1,0 +1,30 @@
+.wrapper { max-width: 600px; }
+.form { display: flex; flex-direction: column; gap: 16px; margin-top: 1.5rem; }
+.row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.field { display: flex; flex-direction: column; gap: 6px; }
+.field label { font-size: 13px; font-weight: 500; color: #444; }
+.field input, .field textarea {
+  padding: 9px 12px; border: 1px solid #ddd; border-radius: 8px;
+  font-size: 14px; outline: none; resize: vertical;
+}
+.field input:focus, .field textarea:focus { border-color: #7f77dd; }
+.daysBadge {
+  font-size: 13px; color: #555; background: #f0f0f0;
+  padding: 6px 12px; border-radius: 8px; display: inline-block;
+}
+.warn { color: #c0392b; font-weight: 500; }
+.actions { display: flex; gap: 12px; justify-content: flex-end; }
+.cancel {
+  padding: 9px 18px; border: 1px solid #ddd; border-radius: 8px;
+  background: transparent; cursor: pointer; font-size: 14px;
+}
+.submit {
+  padding: 9px 20px; background: #534ab7; color: #fff;
+  border: none; border-radius: 8px; font-size: 14px;
+  font-weight: 500; cursor: pointer;
+}
+.submit:disabled { background: #aaa; cursor: not-allowed; }
+.error { background: #fff0f0; color: #c0392b; border: 1px solid #fcc;
+  border-radius: 8px; padding: 10px 12px; font-size: 13px; }
+.success { background: #f0fff4; color: #065f46; border: 1px solid #6ee7b7;
+  border-radius: 8px; padding: 10px 12px; font-size: 13px; }
