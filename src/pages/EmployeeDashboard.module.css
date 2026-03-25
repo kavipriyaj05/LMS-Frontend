@@ -1,0 +1,19 @@
+.wrapper h2 { margin: 0 0 1.5rem; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.5rem; }
+.stat { background: #fff; border: 1px solid #e5e5e0; border-radius: 10px; padding: 1rem; }
+.statNum { display: block; font-size: 28px; font-weight: 500; color: #534ab7; }
+.statLabel { font-size: 12px; color: #888; }
+.applyBtn {
+  padding: 9px 18px; background: #534ab7; color: #fff;
+  border: none; border-radius: 8px; font-size: 14px; font-weight: 500;
+  cursor: pointer; margin-bottom: 1.5rem; display: block;
+}
+.leaveRow {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 0; border-bottom: 1px solid #f0f0f0; font-size: 13px;
+}
+.reason { color: #888; flex: 1; padding: 0 1rem; }
+.viewAll {
+  margin-top: 1rem; background: transparent; border: 1px solid #ddd;
+  padding: 7px 14px; border-radius: 8px; font-size: 13px; cursor: pointer;
+}
