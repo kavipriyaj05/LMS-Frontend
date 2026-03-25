@@ -1,0 +1,15 @@
+.wrapper h2 { margin: 0 0 1.5rem; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 1.5rem; }
+.stat { background: #fff; border: 1px solid #e5e5e0; border-radius: 10px; padding: 1rem; }
+.num { display: block; font-size: 28px; font-weight: 500; color: #534ab7; }
+.label { font-size: 12px; color: #888; }
+.section { background: #fff; border: 1px solid #e5e5e0; border-radius: 12px; padding: 1.25rem; }
+.sectionHeader { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+.sectionHeader h3 { margin: 0; font-size: 15px; }
+.viewAll { background: transparent; border: 1px solid #ddd;
+  padding: 6px 12px; border-radius: 6px; font-size: 12px; cursor: pointer; }
+.leaveRow { display: flex; justify-content: space-between; align-items: center;
+  padding: 10px 0; border-bottom: 1px solid #f5f5f5; font-size: 13px; }
+.name { font-weight: 500; display: block; }
+.dates { color: #888; font-size: 12px; }
+.empty { color: #999; font-size: 13px; }
