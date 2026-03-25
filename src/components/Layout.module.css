@@ -1,0 +1,27 @@
+.shell { display: flex; min-height: 100vh; }
+.sidebar {
+  width: 220px; flex-shrink: 0;
+  background: #fff;
+  border-right: 1px solid #e5e5e0;
+  display: flex; flex-direction: column;
+  padding: 1.5rem 1rem;
+}
+.brand { font-size: 18px; font-weight: 500; margin-bottom: 2rem; color: #534ab7; }
+.nav { display: flex; flex-direction: column; gap: 4px; flex: 1; }
+.link, .linkActive {
+  padding: 8px 12px; border-radius: 8px;
+  font-size: 14px; text-decoration: none; color: #555;
+  transition: background .1s;
+}
+.link:hover { background: #f5f5f5; }
+.linkActive { background: #EEEDFE; color: #3c3489; font-weight: 500; }
+.footer { border-top: 1px solid #eee; padding-top: 1rem; }
+.userName { display: block; font-size: 13px; font-weight: 500; color: #333; }
+.userRole { display: block; font-size: 11px; color: #999; margin-bottom: 8px; }
+.logout {
+  width: 100%; padding: 7px; border: 1px solid #ddd;
+  border-radius: 8px; background: transparent; font-size: 13px;
+  cursor: pointer; color: #666; transition: all .1s;
+}
+.logout:hover { background: #fee; color: #c0392b; border-color: #fcc; }
+.main { flex: 1; padding: 2rem; background: #f9f9f7; overflow-y: auto; }

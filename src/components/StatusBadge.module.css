@@ -1,0 +1,8 @@
+.badge {
+  display: inline-block; font-size: 11px; font-weight: 500;
+  padding: 3px 9px; border-radius: 20px; white-space: nowrap;
+}
+.pending   { background: #FEF3C7; color: #92400E; }
+.approved  { background: #D1FAE5; color: #065F46; }
+.rejected  { background: #FEE2E2; color: #991B1B; }
+.cancelled { background: #F3F4F6; color: #6B7280; }
